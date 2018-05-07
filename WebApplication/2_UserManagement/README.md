@@ -72,7 +72,7 @@ Use the Amazon Cognito console to create a new user pool using the default setti
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
 
-1. From the AWS Console click **Services** then select **Cognito** under Mobile Services.
+1. From the AWS Console click **Services** then select **Cognito** under Security, Identity & Compliance.
 
 1. Choose **Manage your User Pools**.
 
@@ -197,3 +197,8 @@ The [/js/config.js](../1_StaticWebHosting/website/js/config.js) file contains se
     ![Successful login screenshot](../images/successful-login.png)
 
 After you have successfully logged into your web application, you can proceed to the next module, [Serverless Backend](../3_ServerlessBackend).
+
+### Extra
+
+* Try copying the **auth_token** you've received and paste that into an [online JWT Decoder](https://jwt.io/) to understand what this token means for your application
+
